@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desligado{
+    width: 50%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-image: url(img/apagada.png);
+    background-size: 50%;
+    background-color: rgba(99, 110, 121, 0.219);
+    background-position: center;
+    
+}
+.ligado{
+    width: 50%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-image: url(img/ligada.png);
+    background-size: 50%;
+    background-color: white;
+    background-position: center;
+    
+}
